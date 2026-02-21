@@ -5,7 +5,7 @@ This Magisk module adds an **Action** button to perform **extremely aggressive**
 ## ⚠️ CRITICAL WARNINGS
 
 **1. DATA DESTRUCTION**  
-This script employs a "scorched earth" approach. The data it deletes includes, but is not limited to:
+This script employs a "scorched earth" approach. Do not assume it will preserve anything more than uninstalling the entire app would. The data it deletes includes, but is not limited to:
 
 * **Chat-related files** (media, attachments, etc.)
 * **Native libraries & dynamic modules** (causing slow app re-initialization on the next launch)
@@ -14,7 +14,7 @@ This script employs a "scorched earth" approach. The data it deletes includes, b
 * **Crash logs, XLogs, and SQL traces**
 
 **2. PROFESSIONAL USE**  
-**DO NOT USE THIS MODULE** if you rely on `com.tencent.mm` for critical work, business, or time-sensitive communication. Chat-related files will be permanently deleted. Additionally, `com.tencent.mm` will experience slow startup and potential lag while regenerating cache files after cleaning.
+**DO NOT USE THIS MODULE** if you rely on `com.tencent.mm` for critical work, business, or time-sensitive communication. Chat-related files will be permanently deleted, and `com.tencent.mm` will experience slow startup and potential lag while regenerating cache files after cleaning.
 
 **3. ACCOUNT SAFETY**  
 **Modifying internal application data via root access involves inherent risks.** While this script only deletes cache and temporary files, aggressive tampering with app data may theoretically trigger security mechanisms. **You assume all risks regarding potential account restrictions, bans, or suspensions.**
@@ -23,9 +23,9 @@ This script employs a "scorched earth" approach. The data it deletes includes, b
 
 ## Features
 
-* **One-Tap Cleaning:** Adds a native "Action" button (lightning bolt icon) to the module card in the Magisk app
+* **One-Tap Cleaning:** Adds a native "Action" button to the module card in Magisk
 * **Deep System Clean:** Targets protected system directories (`/data/data/...`) that standard Android cleaners cannot access
-* **Customizable:** Cleaning rules are defined in `action.sh` and can be edited to whitelist specific folders if needed
+* **Customizable:** Cleaning rules are defined in `action.sh` and can be edited to whitelist specific folders
 
 ## Installation & Usage
 
@@ -33,9 +33,9 @@ This script employs a "scorched earth" approach. The data it deletes includes, b
 
 1. Download the latest `MMCleaner.zip`
 2. Open the **Magisk** app
-3. Navigate to **Modules** → **Install from Storage** → select the downloaded zip file
+3. Navigate to **Modules** → **Install from Storage** → select the zip file
 4. **Reboot** your device
-5. To perform cleaning: Open the Magisk app, locate this module, and tap the **Action Button** (lightning bolt icon)
+5. To clean: Open Magisk, locate this module, and tap the **Action Button**
 
 ## Configuration
 
