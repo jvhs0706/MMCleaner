@@ -1,0 +1,6 @@
+id=mm_radical_cleaner
+name=MM Radical Cleaner
+version=v2.3
+versionCode=5
+author=Haochen Sun
+description=Adds an Action button for aggressive cleaning of com.tencent.mm internal data. Removes cache, XLog, avatars, thumbnails, and native libraries. ⚠️ WARNING: App startup will be slow after cleaning.
