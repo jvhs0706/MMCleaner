@@ -59,7 +59,9 @@ clean_exact "$DATA_ROOT/face_detect"
 clean_exact "$DATA_ROOT/MicroMsg/luckymoney"
 clean_exact "$DATA_ROOT/MicroMsg/luckymoneynewyear"
 clean_exact "$DATA_ROOT/MicroMsg/flutter"
-# Radical:
+clean_exact "$DATA_ROOT/MicroMsg/AFFUDRPath"
+clean_exact "$DATA_ROOT/MicroMsg/newmsgringtone"
+clean_exact "$DATA_ROOT/MicroMsg/scan_passport_model"
 clean_exact "$DATA_ROOT/files"
 
 # 3. SD Card Clean (Exact Paths)
