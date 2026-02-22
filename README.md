@@ -4,7 +4,7 @@ This Magisk module adds an **Action** button to perform **extremely aggressive**
 
 ## ⚠️ CRITICAL WARNINGS
 
-**1. DATA DESTRUCTION**  
+**1. DATA DESTRUCTION**
 This script employs a "scorched earth" approach. Do not assume it will preserve anything more than uninstalling the entire app would. The data it deletes includes, but is not limited to:
 
 * **Chat-related files** (media, attachments, etc.)
@@ -13,11 +13,11 @@ This script employs a "scorched earth" approach. Do not assume it will preserve 
 * **Mini Programs (AppBrand) & WebView data**
 * **Crash logs, XLogs, and SQL traces**
 
-**2. PROFESSIONAL USE**  
+**2. PROFESSIONAL USE**
 **DO NOT USE THIS MODULE** if you rely on `com.tencent.mm` for critical work, business, or time-sensitive communication. Chat-related files will be permanently deleted, and `com.tencent.mm` will experience slow startup and potential lag while regenerating cache files after cleaning.
 
-**3. ACCOUNT SAFETY**  
-**Modifying internal application data via root access involves inherent risks.** While this script only deletes cache and temporary files, aggressive tampering with app data may theoretically trigger security mechanisms. **You assume all risks regarding potential account restrictions, bans, or suspensions.**
+**3. ACCOUNT SAFETY**
+**Modifying internal application data via root access involves inherent risks.** Aggressive tampering with app data may trigger security mechanisms. **You assume all risks regarding potential loss of data, account restrictions, bans, or suspensions.**
 
 ---
 
@@ -39,12 +39,7 @@ This script employs a "scorched earth" approach. Do not assume it will preserve 
 
 ## Configuration
 
-To customize deletion rules (e.g., to preserve Mini Programs or thumbnails), edit the script directly on your device:
-
-1. Use a root file explorer (such as MT Manager) to navigate to:  
-   `/data/adb/modules/mm_radical_cleaner/`
-2. Open `action.sh`
-3. Comment out (prefix with `#`) any lines corresponding to folders you wish to preserve
+To customize deletion rules (e.g., to preserve Mini Programs or thumbnails), edit the script `action.sh` before installation.
 
 ---
 
@@ -76,6 +71,4 @@ This tool is optimized for my personal usage patterns. I employ such aggressive 
 
 I recognize that this is a vital communication platform with an impressive ecosystem that has transformed daily life for millions. My approach to managing its data is not a criticism of its engineering or utility.
 
-However, my rigorous cleaning habits stem from past negative experiences. Specifically, the behavior of certain individuals via this platform has made me reluctant to use it. This tool allows me to maintain it for absolute necessity while minimizing its presence in my daily life.
-
-**If these cleaning rules seem too extreme, please understand they reflect my personal relationship with the platform and may not suit your needs.**
+However, my rigorous cleaning habits stem from past negative experiences. Specifically, the inappropriate and abusive behaviour of certain individuals via this platform has made me averse to using it. This tool allows me to maintain it for absolute necessity while minimizing its presence in my daily life. **If these cleaning rules seem too extreme, please understand they reflect my personal relationship with the platform and may not suit your needs.**

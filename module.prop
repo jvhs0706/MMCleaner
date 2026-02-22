@@ -3,4 +3,4 @@ name=MMCleaner
 version=v2.3
 versionCode=5
 author=Haochen Sun
-description=Adds an Action button for aggressive cleaning of com.tencent.mm internal data. Removes media, attachments, cache, XLog, avatars, thumbnails, native libraries, etc. App startup will be slow after cleaning.
+description=Adds an Action button for aggressive cleaning of com.tencent.mm internal data. Removes media, attachments, cache, XLogs, avatars, thumbnails, native libraries, and more. App startup will be slow after cleaning.
